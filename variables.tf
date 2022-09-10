@@ -13,6 +13,11 @@ variable "lb_target_group" {
   description = "name of the target group"
 }
 
+variable "lb-security-group"{
+  type = string
+  description = "name of the security group"
+}
+
 variable "lb_name" {
   type        = string
   description = "name of the load balancer"

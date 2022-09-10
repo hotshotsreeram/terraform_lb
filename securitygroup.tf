@@ -1,5 +1,5 @@
 resource "aws_security_group" "lb-web-server" {
-  name        = "lb-web-server"
+  name        = var.lb-security-group
   description = "Allow incoming HTTP Connections"
 
   ingress {
